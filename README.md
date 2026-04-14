@@ -1,302 +1,47 @@
-# power_bi_blinkit-_performance_-
-# 🛒 Blinkit Performance Dashboard (Power BI)
+# BLINKIT PERFORMANCE DASHBOARD-POWERBI
 
-## 📌 Project Overview
-This project is a **Data Visualization Dashboard** built using Power BI to analyze the performance of Blinkit (online grocery delivery platform).
+## BUSINESS PROBLEM
+Blinkit is one of the largest supermarket chains with a wide variety of products in the Indian market. To assess business performance, customer satisfaction, and inventory management, the company needs to create an interactive dashboard to easily access information, find solutions, and make decisions to address immediate issues.
 
-The dashboard provides insights into:
-- Sales performance
-- Customer behavior
-- Marketing effectiveness
-- Operational efficiency
+## DATASET
+Description: The blinkit dataset consists of CSV files 
+- blinkit_marketing_performance (5400 rows, 11 columns: campaign_id, campaign_name, date, target_audience, channel, impresion, ...)
+- blinkit_feedback (5000 rows, 8 columns: feedback_id, order_id, customer_id, rating, feedback_text, feedback_category, ...)
+- blinkit_customers (2500 rows, 11 columns: customer_id, customer_name, email, phone, address, area, ...)
+- blinkit_orders (5000 rows, 10 columns: order_id, customer_id,	order_date,	promised_delivery_time, ...)
+- blinkit_order_items (5000 rows, 4 columns: order_id,	product_id,	quantity, unit_price)
+- blinkit_products (268 rows, 10 columns: product_id,	product_name,	category,	brand,	price,	mrp, ...)
 
----
+Source: https://www.kaggle.com/datasets/yashmotiani/blinkit-marketing-and-customer-powerbi-dashbord
 
-## 🎯 Business Problem
-Blinkit operates in a highly competitive market.  
-The company needs an **interactive dashboard** to:
-- Track business performance
-- Understand customer feedback
-- Improve marketing strategies
-- Make data-driven decisions
+## WHAT I DID
 
----
+- Developed a comprehensive PowerBI dashboard to visualize and analyze the Blinkit dataset.
+- Data was imported, cleaned, and modeled in PowerBI, with DAX measures created for key metrics.
+- Visualizations include tables, charts, graphs, and slicers for interactive exploration.
+- The dashboard consists of four pages, each focusing on different aspects of the business.
 
-## 📊 Dataset
-The dataset consists of multiple CSV files:
+## Page 1: Navigation
 
-- `blinkit_orders.csv` – Order details
-- `blinkit_products.csv` – Product information
-- `blinkit_customers.csv` – Customer data
-- `blinkit_feedback.csv` – Customer feedback
-- `blinkit_marketing_performance.csv` – Marketing campaign data
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/0445c053-e1ef-4b7b-869c-83282c37c807" />
 
-📌 Source: Kaggle dataset
+## Page 2: Marketing Report
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/919cace5-4b45-4733-8dd2-ab37eb9a35e7" />
 
----
+## Page 3: Customer & Feedback Analytics
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2a8b6842-0c82-4b01-a784-9de23e8d4b67" />
 
-## 🛠️ Tools & Technologies
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
+## Page 4: Operations & Product Dashboard
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/91612eab-2319-4c28-b14a-d78bfaf7c794" />
 
----
+## INSIGHTS
+- Business growth is driven primarily by e-commerce, with new customers generating the highest profits through the flagship referral program that excels in CPA, CTR, and CPM metrics.
 
-## 📈 Dashboard Pages
+- High response rates coupled with average ratings point to the neutral group as the main contributor, while customer concentration in urban areas demands increased efforts for rapid growth, alongside considering regions with stable growth over the past two years for operational expansion.
 
-### 🔹 Page 1: Navigation
-- Overview of dashboard
-- Easy navigation between sections
+- Core products in food and pharmaceuticals boast the highest profit margins, with credit cards as the preferred payment method, though delivery times extend during the crucial winter sales season featuring year-end holidays.
 
-### 🔹 Page 2: Marketing Report
-- Campaign performance
-- Conversion rates
-- ROI analysis
-
-### 🔹 Page 3: Customer & Feedback Analytics
-- Customer growth
-- Ratings & feedback analysis
-- Customer segmentation
-
-### 🔹 Page 4: Operations & Product Dashboard
-- Revenue & orders
-- Product performance
-- Delivery metrics
-
----
-
-## 📷 Dashboard Preview
-(Add your screenshots here)
-
----
-
-## 🔍 Key Insights
-- Business growth is mainly driven by e-commerce channels
-- Referral programs generate high customer acquisition
-- Customer ratings show majority neutral-to-positive feedback
-- High-demand products contribute most to revenue
-
----
-
-## 💡 Recommendations
-- Improve referral programs for more engagement
-- Focus on high-demand cities for expansion
-- Optimize delivery time during peak seasons
-- Use targeted marketing campaigns
-
----
-
-## 🚀 How to Use
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore different dashboard pages
-
----
-
-## 👩‍💻 Author
-Your Name
-
----
-
-## ⭐ Acknowledgements
-Dataset sourced from Kaggle# 🛒 Blinkit Performance Dashboard (Power BI)
-
-## 📌 Project Overview
-This project is a **Data Visualization Dashboard** built using Power BI to analyze the performance of Blinkit (online grocery delivery platform).
-
-The dashboard provides insights into:
-- Sales performance
-- Customer behavior
-- Marketing effectiveness
-- Operational efficiency
-
----
-
-## 🎯 Business Problem
-Blinkit operates in a highly competitive market.  
-The company needs an **interactive dashboard** to:
-- Track business performance
-- Understand customer feedback
-- Improve marketing strategies
-- Make data-driven decisions
-
----
-
-## 📊 Dataset
-The dataset consists of multiple CSV files:
-
-- `blinkit_orders.csv` – Order details
-- `blinkit_products.csv` – Product information
-- `blinkit_customers.csv` – Customer data
-- `blinkit_feedback.csv` – Customer feedback
-- `blinkit_marketing_performance.csv` – Marketing campaign data
-
-📌 Source: Kaggle dataset
-
----
-
-## 🛠️ Tools & Technologies
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
-
----
-
-## 📈 Dashboard Pages
-
-### 🔹 Page 1: Navigation
-- Overview of dashboard
-- Easy navigation between sections
-
-### 🔹 Page 2: Marketing Report
-- Campaign performance
-- Conversion rates
-- ROI analysis
-
-### 🔹 Page 3: Customer & Feedback Analytics
-- Customer growth
-- Ratings & feedback analysis
-- Customer segmentation
-
-### 🔹 Page 4: Operations & Product Dashboard
-- Revenue & orders
-- Product performance
-- Delivery metrics
-
----
-
-## 📷 Dashboard Preview
-(Add your screenshots here)
-
----
-
-## 🔍 Key Insights
-- Business growth is mainly driven by e-commerce channels
-- Referral programs generate high customer acquisition
-- Customer ratings show majority neutral-to-positive feedback
-- High-demand products contribute most to revenue
-
----
-
-## 💡 Recommendations
-- Improve referral programs for more engagement
-- Focus on high-demand cities for expansion
-- Optimize delivery time during peak seasons
-- Use targeted marketing campaigns
-
----
-
-## 🚀 How to Use
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore different dashboard pages
-
----
-
-## 👩‍💻 Author
-Your Name
-
----
-
-## ⭐ Acknowledgements
-Dataset sourced from Kaggle# 🛒 Blinkit Performance Dashboard (Power BI)
-
-## 📌 Project Overview
-This project is a **Data Visualization Dashboard** built using Power BI to analyze the performance of Blinkit (online grocery delivery platform).
-
-The dashboard provides insights into:
-- Sales performance
-- Customer behavior
-- Marketing effectiveness
-- Operational efficiency
-
----
-
-## 🎯 Business Problem
-Blinkit operates in a highly competitive market.  
-The company needs an **interactive dashboard** to:
-- Track business performance
-- Understand customer feedback
-- Improve marketing strategies
-- Make data-driven decisions
-
----
-
-## 📊 Dataset
-The dataset consists of multiple CSV files:
-
-- `blinkit_orders.csv` – Order details
-- `blinkit_products.csv` – Product information
-- `blinkit_customers.csv` – Customer data
-- `blinkit_feedback.csv` – Customer feedback
-- `blinkit_marketing_performance.csv` – Marketing campaign data
-
-📌 Source: Kaggle dataset
-
----
-
-## 🛠️ Tools & Technologies
-- Power BI
-- DAX (Data Analysis Expressions)
-- Data Cleaning & Transformation
-
----
-
-## 📈 Dashboard Pages
-
-### 🔹 Page 1: Navigation
-- Overview of dashboard
-- Easy navigation between sections
-
-### 🔹 Page 2: Marketing Report
-- Campaign performance
-- Conversion rates
-- ROI analysis
-
-### 🔹 Page 3: Customer & Feedback Analytics
-- Customer growth
-- Ratings & feedback analysis
-- Customer segmentation
-
-### 🔹 Page 4: Operations & Product Dashboard
-- Revenue & orders
-- Product performance
-- Delivery metrics
-
----
-
-## 📷 Dashboard Preview
-(Add your screenshots here)
-
----
-
-## 🔍 Key Insights
-- Business growth is mainly driven by e-commerce channels
-- Referral programs generate high customer acquisition
-- Customer ratings show majority neutral-to-positive feedback
-- High-demand products contribute most to revenue
-
----
-
-## 💡 Recommendations
-- Improve referral programs for more engagement
-- Focus on high-demand cities for expansion
-- Optimize delivery time during peak seasons
-- Use targeted marketing campaigns
-
----
-
-## 🚀 How to Use
-1. Download the `.pbix` file
-2. Open in Power BI Desktop
-3. Explore different dashboard pages
-
----
-
-## 👩‍💻 Author
-yellanki divya
-
----
-
-## ⭐ Acknowledgements
-Dataset sourced from Kaggle
+# RECOMMENDATION STRATEGIES: 
+- Integrate referral program with popular apps like WhatsApp/Facebook for easy sharing; offer double rewards or free shipping vouchers in Nov-Dec to boost pre-peak participation, while partnering with Ecom Express for priority winter slots to cut food & pharma delivery delays.
+- Target urban growth in high-density cities (Mumbai, Delhi) ads and food/health influencer tie-ups; pilot provincial expansion in stable areas like Pune, Ahmedabad with localized via-card or UPI promotions.
+- Send automated SMS/WhatsApp follow-ups 3-5 days post-delivery with quick 5-star review links and small incentives (e.g ₹50 voucher); reward neutral customers with extra referral points for inviting friends after rating.
